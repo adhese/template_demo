@@ -1,0 +1,31 @@
+{
+    "files": [],
+    "advar": "demo_advar_template.txt",
+    "fields": [
+        {
+            "default": "The default title",
+            "doc": "Fill in the title of your article",
+            "label": "Title",
+            "type": "singleLineText",
+            "key": "<advar_title>"
+        },{
+            "default": "Some default text, blabla, bla.",
+            "doc": "Fill in the text of your article",
+            "label": "Text",
+            "type": "multilineText",
+            "key": "<advar_text>"
+        },{
+            "default": "Click here now",
+            "doc": "Fill in the text of your link",
+            "label": "Link text",
+            "type": "singleLineText",
+            "key": "<advar_link_text>"
+        },{
+            "default": "http://www.adhese.com",
+            "doc": "Fill in the destintaion URL",
+            "label": "Destintation URL",
+            "type": "multilineText",
+            "key": "<advar_url>"
+        }
+    ]
+}
